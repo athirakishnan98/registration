@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Angularlogin</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="Scripts/angular.min.js"></script>
+  <script src="Scripts/app.js"></script>
+</head>
+<body ng-app="myApp">    
+  <div ng-controller="myCtrl">
+    <form>
+      ID:
+      <input type="text" ng-model="author">
+      <br>
+      <br> Name:
+      <input type="text" ng-model="title">
+      <br>
+      <br> Address:
+      <input type="text" ng-model="body">
+      <br>
+      <br> phone Number:
+      <input type="text" ng-model="body">
+      <br>
+      <br>
+      
+      <input type="submit" value="Submit" ng-click="submit()">
+    </form>
+  </div>
+</body>
+</html>
+
